@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HelloWorld.h"
 
-@interface MasterViewController : UITableViewController
+@interface MasterViewController : UITableViewController {
+    IBOutlet UILabel *display;
+    HelloWorld *brain;
+}
+
+- (IBAction)digitPressed:(UIButton *)sender;
+- (IBAction)operationPressed:(UIButton *)sender;
 
 @end

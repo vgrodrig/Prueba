@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7339540918EF2ADC0057A6C8 /* HelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 7339540818EF2ADC0057A6C8 /* HelloWorld.m */; };
 		7359159E18EEFCC100460EB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7359159D18EEFCC100460EB9 /* Foundation.framework */; };
 		735915A018EEFCC100460EB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7359159F18EEFCC100460EB9 /* CoreGraphics.framework */; };
 		735915A218EEFCC100460EB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 735915A118EEFCC100460EB9 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7339540718EF2ADC0057A6C8 /* HelloWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorld.h; sourceTree = "<group>"; };
+		7339540818EF2ADC0057A6C8 /* HelloWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorld.m; sourceTree = "<group>"; };
 		7359159A18EEFCC100460EB9 /* Scout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7359159D18EEFCC100460EB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7359159F18EEFCC100460EB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,6 +118,8 @@
 		735915A318EEFCC100460EB9 /* Scout */ = {
 			isa = PBXGroup;
 			children = (
+				7339540718EF2ADC0057A6C8 /* HelloWorld.h */,
+				7339540818EF2ADC0057A6C8 /* HelloWorld.m */,
 				735915AC18EEFCC100460EB9 /* AppDelegate.h */,
 				735915AD18EEFCC100460EB9 /* AppDelegate.m */,
 				735915AF18EEFCC200460EB9 /* Main.storyboard */,
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7339540918EF2ADC0057A6C8 /* HelloWorld.m in Sources */,
 				735915AE18EEFCC100460EB9 /* AppDelegate.m in Sources */,
 				735915B418EEFCC200460EB9 /* MasterViewController.m in Sources */,
 				735915AA18EEFCC100460EB9 /* main.m in Sources */,
@@ -462,6 +468,7 @@
 				735915D118EEFCC200460EB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		735915D218EEFCC200460EB9 /* Build configuration list for PBXNativeTarget "ScoutTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +477,7 @@
 				735915D418EEFCC200460EB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
